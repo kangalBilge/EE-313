@@ -1,0 +1,129 @@
+Circuit: * C:\Users\BilgeKaan\Desktop\Bilge Kaan\2024 Spring\EE 313\Lab\Lab1\Lab1_alt3.asc
+
+WARNING: Less than two connections to node n006.  This node is used by r13.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.67772
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.20453
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.14054
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0277778
+Gmin = 1.08658
+vernier = 0.0138889
+vernier = 0.0185185
+vernier = 0.00925925
+Gmin = 1.07037
+vernier = 0.0123457
+vernier = 0.00617283
+Gmin = 1.05481
+vernier = 0.00823044
+vernier = 0.00411522
+vernier = 0.00548696
+Gmin = 1.04509
+vernier = 0.00274348
+vernier = 0.00365797
+Gmin = 1.03914
+vernier = 0.0048773
+vernier = 0.00243865
+vernier = 0.00325153
+Gmin = 1.03324
+vernier = 0.00162576
+vernier = 0.000812882
+vernier = 0.00108384
+Gmin = 1.03247
+vernier = 0.00144512
+vernier = 0.000722562
+Gmin = 1.03061
+vernier = 0.000963415
+vernier = 0.00128455
+vernier = 0.000642277
+Gmin = 1.02877
+vernier = 0.000856369
+vernier = 0.000428184
+Gmin = 1.02756
+vernier = 0.000570912
+vernier = 0.000761216
+vernier = 0.000570912
+Gmin = 1.02646
+vernier = 0.000761216
+vernier = 0.000570912
+Gmin = 1.02529
+vernier = 0.000761216
+vernier = 0.000570912
+vernier = 0.000761216
+Gmin = 1.02407
+vernier = 0.000570912
+vernier = 0.000428184
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 1.02372
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 1.02284
+vernier = 0.000570911
+vernier = 0.000428184
+vernier = 0.000570911
+Gmin = 1.02193
+vernier = 0.000428183
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u2:c      d:u2:e      d:u2:lp     d:u2:ln     d:u2:p
+Model:    u2:dx       u2:dx       u2:dx       u2:dx       u2:dx
+Id:     -9.28e-12   -3.02e-12   -4.04e-11   -3.96e-11   -1.50e-11
+Vd:     -9.28e+00   -3.02e+00   -4.04e+01   -3.96e+01   -1.50e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:      d1          d2        d:u1:c      d:u1:e      d:u1:lp
+Model:   1n4148      1n4148       u1:dx       u1:dx       u1:dx
+Id:      1.44e-03    1.43e-03    2.86e-04   -1.30e-11   -3.54e-11
+Vd:      6.11e-01    6.19e-01    6.96e-01   -1.30e+01   -3.54e+01
+Req:     3.10e+01    3.08e+01    8.88e+01    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:ln     d:u1:p        d3
+Model:    u1:dx       u1:dx         d
+Id:     -4.46e-11   -1.50e-11    4.30e-03
+Vd:     -4.46e+01   -1.50e+01    7.01e-01
+Req:     1.00e+12    1.00e+12    5.92e+00
+CAP:     0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:     q:u2:1      q:u2:2      q:u1:1      q:u1:2
+Model:     u2:qx       u2:qx       u1:qx       u1:qx
+Ib:      -1.99e-08   -1.99e-08    8.83e-12   -3.70e-04
+Ic:      -4.97e-06   -4.97e-06   -3.00e-12    3.60e-04
+Vbe:     -5.93e-01   -5.93e-01    5.83e+00   -7.03e-01
+Vbc:      8.12e+00    8.12e+00    3.00e+00   -7.03e-01
+Vce:     -8.72e+00   -8.72e+00    2.83e+00   -6.16e-04
+BetaDC:   2.50e+02    2.50e+02   -3.40e-01   -9.71e-01
+Gm:       1.95e-04    1.95e-04   -8.59e-66    3.56e-04
+Rpi:      1.28e+06    1.28e+06    1.00e+12    1.68e+04
+Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ro:       0.00e+00    0.00e+00    1.16e+65    6.90e+01
+Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.50e+02    2.50e+02   -8.59e-54    5.98e+00
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+

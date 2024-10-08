@@ -1,0 +1,86 @@
+Circuit: * C:\Users\BilgeKaan\Desktop\Bilge Kaan\2024 Spring\EE 313\Lab\Lab1\Lab1_alt_2.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+Gmin = 2.62144
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 2.39247
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 2.37504
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u2:c      d:u2:e      d:u2:lp     d:u2:ln     d:u2:p
+Model:    u2:dx       u2:dx       u2:dx       u2:dx       u2:dx
+Id:     -1.28e-11    7.66e-07   -4.00e-11   -4.00e-11   -1.50e-11
+Vd:     -1.28e+01    5.46e-01   -4.00e+01   -4.00e+01   -1.50e+01
+Req:     1.00e+12    3.32e+04    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:      d1          d2        d:u1:c      d:u1:e      d:u1:lp
+Model:   1n4148      1n4148       u1:dx       u1:dx       u1:dx
+Id:      1.44e-03    1.44e-03   -1.29e-11    8.18e-06   -4.00e-11
+Vd:      6.11e-01    6.19e-01   -1.29e+01    6.06e-01   -4.00e+01
+Req:     3.10e+01    3.06e+01    1.00e+12    3.11e+03    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:ln     d:u1:p        d3
+Model:    u1:dx       u1:dx         d
+Id:     -4.00e-11   -1.50e-11   -6.95e-15
+Vd:     -4.00e+01   -1.50e+01   -5.98e-03
+Req:     1.00e+12    1.00e+12    8.75e+11
+CAP:     0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:     q:u2:1      q:u2:2      q:u1:1      q:u1:2
+Model:     u2:qx       u2:qx       u1:qx       u1:qx
+Ib:      -1.86e-08   -2.27e-08    6.05e-12   -4.14e-08
+Ic:      -4.65e-06   -5.67e-06   -3.37e-12   -1.03e-05
+Vbe:     -5.92e-01   -5.97e-01    2.68e+00   -6.12e-01
+Vbc:      5.81e-01    5.65e-01    3.37e+00   -2.80e-02
+Vce:     -1.17e+00   -1.16e+00   -6.95e-01   -5.84e-01
+BetaDC:   2.50e+02    2.50e+02   -5.57e-01    2.50e+02
+Gm:       1.83e-04    2.23e-04    2.80e-60    4.07e-04
+Rpi:      1.37e+06    1.12e+06    1.00e+12    6.15e+05
+Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ro:       5.75e+23    3.07e+23    2.63e+71    2.30e+13
+Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.50e+02    2.50e+02    2.80e-48    2.50e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Fri Feb  9 21:04:20 2024
+Total elapsed time: 1.330 seconds.
+
+tnom = 27
+temp = 22
+method = trap
+totiter = 1435
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 61
+fillins = 281
+solver = Normal
+Avg thread counts: 1.7/0.0/10.6/1.7
+Matrix Compiler1: 18.53 KB object code size
+Matrix Compiler2: 9.73 KB object code size  1.1/1.1/[0.3]
+
